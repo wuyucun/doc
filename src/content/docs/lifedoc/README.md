@@ -11,7 +11,7 @@ permalink: /lifedoc/
 
 这里是「人生笔记」，记录我的思考，留存我的成长，与时光共勉，与自己同行。
 
-域名：[yunriver.com](https://yunriver.com)
+域名：[doc.wyc.cc](https://doc.wyc.cc)
 
 关注公众号获取最新文章：
 
