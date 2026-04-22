@@ -1,5 +1,6 @@
 ---
 title: 1.肌群概览
+slug: health/strength/overview
 ---
 
 ## 一图看懂全身肌肉

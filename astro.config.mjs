@@ -1,6 +1,7 @@
 ﻿// @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightSidebarTopics from 'starlight-sidebar-topics'
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,18 +12,37 @@ export default defineConfig({
 				starlightSidebarTopics([
 					{
 						label: '健康记',
-						link: '/health/',
+						link: '/health/strength/overview',
 						icon: 'open-book',
 						//items: ['guides/getting-started', 'guides/manual-setup'],
-						autogenerate: {
-							directory: 'health',
-						},
+						items: [
+							{
+								label: '全部文章',
+								autogenerate: { directory: 'health' },
+							},
+						],
 					},
 					{
-						label: 'Reference',
-						link: '/reference/',
+						label: '投资记',
+						link: '/invest/zhouqi',
 						icon: 'information',
-						items: ['reference/api', 'reference/components'],
+						items: [
+							{
+								label: '全部文章',
+								autogenerate: { directory: 'invest' },
+							},
+						],
+					},
+					{
+						label: '生活记',
+						link: '/lifedoc/readme',
+						icon: 'information',
+						items: [
+							{
+								label: '全部文章',
+								autogenerate: { directory: 'lifedoc' },
+							},
+						],
 					},
 				]),
 			],
