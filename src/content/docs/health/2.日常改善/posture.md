@@ -1,5 +1,6 @@
 ---
 title: 体态
+slug: health/posture
 ---
 
 
