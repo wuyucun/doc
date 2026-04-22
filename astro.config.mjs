@@ -1,4 +1,4 @@
-// @ts-check
+﻿// @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
@@ -59,7 +59,7 @@ export default defineConfig({
 				},
 
 				{
-					label: '技术与生活',
+					label: '科技生活',
 					collapsed: true,
 					// 自动扫描 src/content/docs/ 下所有文件/文件夹
 					autogenerate: {
