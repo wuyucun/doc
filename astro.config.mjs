@@ -6,6 +6,28 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
+			// 侧边栏插件
+			plugins: [
+				starlightSidebarTopics([
+					{
+						label: '健康记',
+						link: '/health/',
+						icon: 'open-book',
+						//items: ['guides/getting-started', 'guides/manual-setup'],
+						autogenerate: {
+							directory: 'health',
+						},
+					},
+					{
+						label: 'Reference',
+						link: '/reference/',
+						icon: 'information',
+						items: ['reference/api', 'reference/components'],
+					},
+				]),
+			],
+
+
 			title: '望云川文档',
 			description: '人生笔记本，归纳碎片化信息流，提供极致流畅的阅读体验。',
 			defaultLocale: 'zh-CN',
@@ -15,31 +37,14 @@ export default defineConfig({
 					lang: 'zh-CN',
 				},
 			},
-			lastUpdated: true,
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
-	     	//sidebar: [
-			//	{
-		//			label: '导航',
-	//				items: [
-						// Each item here is one entry in the navigation menu.
-		//				{ label: 'Example Guide', slug: 'guides/example' },
-			//		],
-			//		  autogenerate: {
-			//			  directory: '.',
-			//			  collapsed: true // ✅ 所有子目录默认折叠
-			//	  },
-	//			{
-	//				label: 'Reference',
-		//			autogenerate: { directory: 'health' },
-
-			//	  },
-
-			//	],
+			lastUpdated: false,
+			social: [{ icon: 'github', label: 'GitHub', href: '' }],
+	
 			customCss: [
 				'./src/styles/custom.css',
 			],
 
-			sidebar: [
+		/*	sidebar: [
 				{
 					label: '健康/健身',
 					collapsed: true,
@@ -66,7 +71,7 @@ export default defineConfig({
 						directory: 'lifedoc',
 					},
 				},
-			],
+			],*/
 		}),
 	],
 });
