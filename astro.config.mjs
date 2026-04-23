@@ -12,34 +12,34 @@ export default defineConfig({
 				starlightSidebarTopics([
 					{
 						label: '健康记',
-						link: '/health/strength/overview',
-						icon: 'open-book',
+						link: '/health',
+						icon: 'slack',
 						//items: ['guides/getting-started', 'guides/manual-setup'],
 						items: [
 							{
-								label: '全部文章',
+								label: '健康记专题',
 								autogenerate: { directory: 'health' },
 							},
 						],
 					},
 					{
 						label: '投资记',
-						link: '/invest/zhouqi',
-						icon: 'information',
+						link: '/invest',
+						icon: 'rocket',
 						items: [
 							{
-								label: '全部文章',
+								label: '投资记专题',
 								autogenerate: { directory: 'invest' },
 							},
 						],
 					},
 					{
 						label: '生活记',
-						link: '/lifedoc/readme',
-						icon: 'information',
+						link: '/lifedoc',
+						icon: 'pencil',
 						items: [
 							{
-								label: '全部文章',
+								label: '生活记专题',
 								autogenerate: { directory: 'lifedoc' },
 							},
 						],

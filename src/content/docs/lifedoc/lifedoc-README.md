@@ -1,20 +1,14 @@
 ---
 title: 人生笔记
 createTime: 2026/02/04 10:07:25
-permalink: /lifedoc
+slug: lifedoc
 
 ---
-
-
 
 人生漫漫，思有所记，悟有所存。
 
 这里是「人生笔记」，记录我的思考，留存我的成长，与时光共勉，与自己同行。
 
-域名：[doc.wyc.cc](https://doc.wyc.cc)
-
-关注公众号获取最新文章：
+人生笔记中还包括阅读、科技、家庭、生活指南等杂项内容。
 
 
-
-![qrcode_for_gh_bafaa4635cd3_258](./../.vuepress/public/qrcode_for_gh_bafaa4635cd3_258.jpg)
