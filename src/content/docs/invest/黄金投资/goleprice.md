@@ -1,7 +1,7 @@
 ---
 title: 黄金价格
 createTime: 2026/02/04 11:07:25
-slug: /invest/goldprice/
+slug: /invest/goldprice
 ---
 
 

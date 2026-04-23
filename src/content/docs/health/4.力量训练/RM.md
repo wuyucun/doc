@@ -2,7 +2,7 @@
 
 title: 2.RM与负重
 createTime: 2026/02/04 20:59:45
-permalink: /health/rm/
+permalink: health/rm
 
 ---
 
