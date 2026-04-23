@@ -1,7 +1,7 @@
 ---
 title: 货币时间价值
 createTime: 2026/02/21 11:07:25
-permalink: /invest/timevalue/
+slug: invest/timevalue/
 ---
 
 
