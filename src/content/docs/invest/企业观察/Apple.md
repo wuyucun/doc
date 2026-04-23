@@ -1,5 +1,6 @@
 ---
 title: 苹果
+slug: invest/apple
 ---
 
 

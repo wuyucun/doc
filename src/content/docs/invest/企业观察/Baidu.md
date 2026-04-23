@@ -1,5 +1,6 @@
 ---
 title: 百度
+slug: invest/baidu
 ---
 
 
