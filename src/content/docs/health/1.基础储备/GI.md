@@ -1,7 +1,7 @@
 ---
 title: 'GI与GL'
 createTime: 2026/03/25 20:59:47
-permalink: /health/gi/
+permalink: health/gi/
 ---
 
 
